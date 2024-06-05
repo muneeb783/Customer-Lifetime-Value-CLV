@@ -26,3 +26,5 @@ Evaluate the models perfomance after running it by using **MAE** and **MSE** val
 Once the model is trained and evaluated, it can be used to predict CLV for new customers or to update predictions for existing customers based on new transaction data.
 # Contributions 
 Contributions to improve the model are welcome. Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
+---
+Thank you for using the Customer Lifetime Value Model! Your contributions and feedback are highly appreciated.
