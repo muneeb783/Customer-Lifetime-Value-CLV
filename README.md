@@ -39,7 +39,7 @@ Although the model is designed to clean and preprocess the data before using but
 4. **Run the text analysis script:**
    
     ```sh
-    python3 jupyter notebook
+    jupyter notebook
     ```
 # Evaluation
 Evaluate the models perfomance after running it by using **MAE** and **MSE** values. By default they are printed at the end however, feel free to use them at your will
