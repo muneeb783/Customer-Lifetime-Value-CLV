@@ -20,10 +20,31 @@ The model requires historical customer transaction data with the following field
 - **UnitPrice**
 - **CustomerID**
 Although the model is designed to clean and preprocess the data before using but make sure you remove anomalies at your end and ensure that data is formatted correctly
+# Installation Guide
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/muneeb783/text-analyzer.git
+    ```
+2. **Navigate to the project directory:**
+
+    ```sh
+    cd clv
+    ```
+3. **Install the required dependencies:**
+   
+    ```sh
+    pip3 install -r requirements.txt
+    ```
+4. **Run the text analysis script:**
+   
+    ```sh
+    python3 jupyter notebook
+    ```
 # Evaluation
 Evaluate the models perfomance after running it by using **MAE** and **MSE** values. By default they are printed at the end however, feel free to use them at your will
 # Usage
-Once the model is trained and evaluated, it can be used to predict CLV for new customers or to update predictions for existing customers based on new transaction data.
+Once the model is trained and evaluated, it can be used to predict CLV for new customers or to update predictions for existing customers based on new transaction data. Feel free to use your own dataset or pick one from Kaggle.
 # Contributions 
 Contributions to improve the model are welcome. Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 
